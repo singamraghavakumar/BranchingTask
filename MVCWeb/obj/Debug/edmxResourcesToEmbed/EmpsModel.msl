@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Day46ModelStoreContainer" CdmEntityContainer="Day46Entities">
+    <EntitySetMapping Name="Emps">
+      <EntityTypeMapping TypeName="Day46Model.Emp">
+        <MappingFragment StoreEntitySet="Emps">
+          <ScalarProperty Name="EId" ColumnName="EId" />
+          <ScalarProperty Name="EName" ColumnName="EName" />
+          <ScalarProperty Name="EDesig" ColumnName="EDesig" />
+          <ScalarProperty Name="EDoj" ColumnName="EDoj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
